@@ -1,0 +1,111 @@
+﻿<!DOCTYPE html>
+<html lang="he">
+<meta charset="UTF-8">
+<title>כן, לא אדום, לבן - צור קשר</title>
+<meta name="description" content="האתר לתרבות היין" />
+<meta name="keywords" content="wine,white,red,blend,glasses,contactUs,יין,אדום,לבן,יקב" />
+<meta name="author" content="Lihi Kadosh, Nufar Meir, Nir Koren" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
+    <link href="styles/reset_contactUs.css" rel="stylesheet" />
+    <link href="styles/myStyle_contanctUs.css" rel="stylesheet" />
+
+<style>
+
+@font-face {
+    font-family:'GadiAlmogAlefAlefAlef';
+    src: url('Fonts/GadiAlmogAlefAlefAlef/web/gadi-almog-regular-aaa.eot');
+    src: url('Fonts/GadiAlmogAlefAlefAlef/web/gadi-almog-regular-aaa.eot#iefix') format('embedded-opentype'), url('Fonts/GadiAlmogAlefAlefAlef/gadi-almog-regular-aaa.ttf') format('truetype');
+}
+
+
+
+
+</style>
+
+<!-- JS -->
+<script src="jScripts/jquery-1.12.0.min.js"></script>
+<link rel="icon" href="Images/glass.svg">
+
+<body>
+    <div id="container">
+
+        <header>
+
+            <nav class="main_nav_sticky">
+                <ul>
+                        <a href="index.html"> <img class="logo1" src="Images/logo.png" alt= "לוגו הבית"></img></a>
+                        <li><a href="index _vocabulary.html">מושגים</a></li>
+                        <li><a class="not_working_link" href="#">סוגי יינות</a></li>
+                        <li><a href="guidsnew.html">מדריכים</a></li>
+                        <li><a class="not_working_link" href="#">יין ואוכל</a></li>
+                        <li><a class="not_working_link" href="#">מפת יקבים</a></li>
+                        <li><a href="glasses.html">יין וכוסות</a></li>
+                    </ul>
+               
+            </nav>
+
+
+
+        </header>
+
+        <main>
+
+              <form aria-label="טופס צור קשר">
+       
+                      <h1>צרו איתנו קשר </h1>
+                      <h2>מלאו את הטופס ונחזור אליכם הכי מהר שנוכל !</h2>
+                 
+                  <h3> *שדה חובה</h3>
+                  <div id="name">
+                      <label for="fullname" requierd>
+                          <h3>*שם מלא :</h3>
+                          <input type="text" required aria-required="true" id="full name" name="allname" placeholder="הכנס שם פרטי ושם משפחה" />
+                      </label>
+                  </div>
+                  <div>
+                      <label for="email" required>
+                          <h3>*דואר אלקטרוני</h3>
+                          <input type="email" id="yourmail" placeholder="הזן דואר אלקטרוני" name="email" required aria-required="true" />
+                      </label>
+                  </div>
+                  <div>
+                      <fieldset>
+                          <legend>
+                              <h3>מגדר :</h3>
+                          </legend>
+                          <label for="male" id="male">
+                              <input type="radio"  name="gender" checked /> זכר
+                          </label>
+                          <label for="female" id="female">
+                              <input type="radio"  name="gender" checked /> נקבה
+                      </fieldset>
+                  </div>
+                  <div>
+                      <label for="opinion" aria-required="true">
+                          <h3>*רשום את הודעתך :</h3>
+                          <textarea id="opinion" placeholder="הזן תוכן" name="notes" required aria-required="true"></textarea>
+                      </label>
+                      <div>
+                          <input type="submit" id="send" value="שלח" class="button" />
+                      </div>
+                  </div>
+              </form>
+            </main>
+        <footer>
+            <nav>
+                <ul>
+                    <li><a href="about.html">עלינו</a></li>
+                    <li><a href="contactUs.html">צור קשר</a></li>
+                    <li><a class="not_working_link" href="#">נגישות</a></li>
+                    <li><a href="siteMap.html">מפת אתר</a></li>
+                </ul>
+            </nav>
+        </footer>
+  
+</body>
+</html>

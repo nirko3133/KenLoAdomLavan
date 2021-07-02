@@ -1,0 +1,471 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@600&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    direction: rtl;
+    background-color: #AE3E4A;
+}
+
+
+
+body::-webkit-scrollbar {
+    width: 12px;              
+  }
+  body::-webkit-scrollbar-track {
+    background: #E5E5D8;      
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color:#AE3E4A;   
+    border-radius: 20px;   
+    border: 3px solid #E5E5D8;  
+
+  }
+
+
+#container{
+
+    width: 1280px;
+    margin: 0 auto;
+    position: relative;
+    height: 6000px;
+}
+
+
+
+.header2{
+
+z-index: 5;
+position: relative;
+
+}
+
+
+.not_working_link{
+    cursor: not-allowed;
+}
+
+
+#start{
+    font-family: 'GadiAlmogAlefAlefAlef';
+    color: white;
+    line-height: 2;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 98px;
+}
+
+
+
+   
+.sidebar > ul{
+
+   position:fixed;
+   top: 94px;
+   right: 34px;
+   z-index: 4;
+}
+
+  
+
+
+
+
+#main .sidebar ul li a {
+    display:block;
+    background-color: #e5e5d8;
+    color: black;
+    padding-top: 15px;
+    padding-right: 3px;
+    text-decoration: none;
+    text-align: center;
+    border-left: 1px solid #E5E5D8;
+    font-family: 'heebo medium';
+    width: 119px;
+    height: 42px;
+
+
+}
+
+
+
+
+
+
+header nav ul li a {
+    display: inline-block;
+    background-color: #314635;
+    color: honeydew;
+    width: 180px;
+    height: 30px;
+    padding-top: 15px;
+    margin: 0px,0px,15px;
+    text-decoration: none;
+    text-align: center;
+    border-left: 1px solid #E5E5D8;
+    font-family: GadiAlmogAlefAlefAlef ;
+    
+}
+
+
+
+
+
+#main .sidebar ul li a:hover {
+color: #AE3E4A ;
+
+}
+
+
+
+#main{
+    width: 1280px;
+    height: 6000px;
+    padding-right: 101px;
+    padding-top: 101px;
+    position: relative;
+}
+
+
+
+
+ nav img{
+        padding-left: 19px;
+        width: 113px;
+        margin: -5px;
+} 
+
+
+
+
+.main_nav_sticky {
+    background-image: url(../Images/nav_beige.png);
+    height: 103px;
+    width: 1280px;
+    display: flex;
+    z-index: 2;
+    margin: 0 auto;
+    position:fixed;
+    margin-top: -3px;
+}
+
+
+.main_nav_sticky > ul{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    padding-top: 8px;
+    margin: 0 auto;
+
+   
+}
+
+
+
+.main_nav_sticky li:nth-child(2) a{
+    border-radius:0 10px 10px 0;
+}
+
+.main_nav_sticky li:last-child a{
+    border-radius:10px 0px 0px 10px;
+}
+
+.main_nav_sticky ul li a:hover{
+background-color:rgb(0, 0, 0);
+
+}
+
+
+
+footer nav li a {
+    display: inline-block;
+    font-family: 'heebo medium';
+}
+
+
+footer nav ul li a {
+    display: inline-block;
+    background-color: #E5E5D8;
+    color: black;
+    width: 100%;
+    height: 30px;
+    padding-top: 15px;
+    margin: 0px,0px,15px;
+    text-decoration: none;
+    text-align: center;
+}
+
+footer nav, footer nav ul, footer nav li {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+}
+
+    footer nav li.footer {
+        width: 266px;
+    }
+
+    footer{
+        height: 0px;
+    }    
+
+
+footer nav {
+    margin: 8px auto;
+    
+    width:100%
+}
+
+
+    footer nav ul li a:hover {
+        background-color:#314635;
+        color: #E5E5D8;
+    }
+
+
+
+h2 {
+    font-family:'Gadi Almog AlefAlefAlef';
+    color: black;
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+ 
+}
+
+
+
+
+.vocabelrydiv div {
+    background-color:#E5E5D8;
+    width: auto;
+    padding: 22px 49px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    top: 70px;
+    left: 42px;
+    Z-INDEX: -1;
+
+    
+   
+    
+}
+
+.vocabelryleft div{
+ 
+    right: 40px;
+    background-color:#E5E5D8;
+    width: auto;
+    padding: 22px 49px;
+    vertical-align: top;
+    position: relative;
+    top: 70px;
+    left: 42px;
+    Z-INDEX: -1;
+    float: left;
+    
+   
+}
+
+
+
+.vocabelrydiv:hover div p {
+display:inline-block;
+
+
+}
+
+
+.vocabelryleft:hover div p {
+display:inline-block;
+
+}
+
+.vocabelrydiv div p {
+display:none;
+font-family: heebo medium;
+line-height: 170%;
+font-size: auto;
+}
+
+.vocabelryleft div p {
+    display:none;
+    font-family: heebo medium;
+    line-height: 170%;
+    font-size: auto;
+
+    }
+
+
+
+
+h1{
+
+    font-family: Heebo;
+    color: aliceblue;
+    FONT-SIZE: 45px;
+    TEXT-ALIGN: CENTER;
+    margin: 25px;
+
+}
+
+h3{
+    left: 1025px;
+    top: 366px;
+    font-family: 'Gadi Almog AlefAlefAlef';
+    color: aliceblue;
+    FONT-SIZE: 15px;
+    font-weight: bold;
+    transform: rotate( 
+18deg
+ );
+    position: absolute;
+}
+
+#hetzvoca{
+    position: absolute;
+    left: 1035px;
+    width: 59px;
+    top: 441px;
+    transform: rotate(  308deg  );
+
+ animation: up-down 2s cubic-bezier(0.4, 0, 0.33, 0.49);
+ animation-iteration-count: 4;
+}
+
+
+
+@keyframes up-down{
+ 0%, 100%{
+     transform: translateY(0);
+ }
+ 50%{
+     transform: translateY(-15px);
+ }
+}
+
+
+.vocabelryleft{
+    float: left;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    position: relative;
+    width: 1280px;
+    padding-left: 87px;
+    
+}
+
+
+.vocabelrydiv{
+    float:right;
+    margin-top: 80px;
+    margin-bottom : 80px;
+    position: relative;
+    width: 1280px;
+    padding-right: 87px;
+}
+
+.vocabelrydiv img{
+    width: 300px;
+    height: auto;
+    display: inline-block;
+    
+    }
+
+.vocabelryleft img{
+    width: 300px;
+    height: auto;
+    float:left;
+}
+
+
+
+#blend{
+    top: 163px;
+    position: relative;
+} 
+
+#body2{
+
+    top: 163px;
+    position: relative;
+}
+
+#bodyimg{
+
+width: 230px;
+}
+
+
+#decanter{
+    top: 130px;
+    position: relative;
+}
+
+#decanterimg{
+
+width:230px;
+
+}
+
+
+#tanin{
+    top: 150px;
+    right: 54px;
+    position: relative;
+}
+
+#taninimg{
+    width:270px;
+}
+
+
+
+#yavesh{
+    top: 50px;
+   left: 40px;
+    position: relative;
+}
+
+#haziyaveshimg{
+    
+    width: 230px;
+
+}
+
+#afizutimg{
+width: 306px;
+
+}
+
+#afizut{
+    top: 149px;
+    left: 89px;
+    position: relative;
+}
+
+#sumalier{
+
+    top: 57px;
+    right: 47px;
+    position: relative;
+}
+
+#siometimg{
+    width: 400px;
+}
+
+
+#siomet{
+    top: 103px;
+    left: 136px;
+    position: relative;
+}
+
+#tsisaimg{
+
+    width: 240px;
+}

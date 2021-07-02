@@ -1,0 +1,220 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@600&display=swap');
+
+body {
+    direction: rtl;
+    background-color: #AE3E4A;
+  
+
+}
+
+body::-webkit-scrollbar {
+    width: 12px;              
+  }
+  body::-webkit-scrollbar-track {
+    background: #E5E5D8;      
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: #314635;   
+    border-radius: 20px;   
+    border: 3px solid #E5E5D8;  
+
+  }
+
+
+#container{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+nav img{
+    padding-left: 19px;
+    width: 113px;
+    margin: -5px;
+} 
+
+.not_working_link{
+    cursor: not-allowed;
+}
+
+
+header{
+position: fixed;
+margin-top: 0px;
+}
+
+
+
+header nav li a{
+
+    display: inline-block;
+    font-family: GadiAlmogAlefAlefAlef ;
+    
+
+}
+
+
+header nav ul li a {
+    display: inline-block;
+    background-color: #314635;
+    color: honeydew;
+    width: 180px;
+    height: 30px;
+    padding-top: 15px;
+    margin: 0px,0px,15px;
+    text-decoration: none;
+    text-align: center;
+    border-left: 1px solid #E5E5D8;
+    display: inline-block;
+    
+}
+
+
+.main_nav_sticky {
+    background-image: url(../Images/nav_beige.png);
+    height: 103px;
+    width: 1280px;
+    display: flex;
+    z-index: 10;
+    margin: 0 auto;
+}
+
+
+.main_nav_sticky > ul{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    padding-top: 8px;
+    margin: 0 auto;
+
+   
+}
+
+
+
+
+header nav li:nth-child(2) a{
+    border-radius:0 10px 10px 0;
+}
+
+header nav li:last-child a{
+    border-radius:10px 0px 0px 10px;
+}
+
+header nav ul li a:hover{
+background-color:rgb(0, 0, 0);
+
+}
+
+
+
+footer nav li a {
+    display: inline-block;
+    font-family: 'heebo medium';
+}
+
+
+footer nav ul li a {
+    display: inline-block;
+    background-color: #E5E5D8;
+    color: black;
+    width: 100%;
+    height: 30px;
+    padding-top: 15px;
+    margin: 0px,0px,15px;
+    text-decoration: none;
+    text-align: center;
+}
+
+footer nav, footer nav ul, footer nav li {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+}
+
+    footer nav li.footer {
+        width: 266px;
+    }
+
+    footer{
+        height: 0px;
+        margin-top: 111px;
+}
+    
+
+
+footer nav {
+    margin: 30px auto;
+    
+    width:100%
+}
+
+
+    footer nav ul li a:hover {
+        background-color:#314635;
+        color: #E5E5D8;
+    }
+
+
+h2 {
+    font-family: 'Gadi Almog AlefAlefAlef';
+    color: white;
+    font-size: 25px;
+    margin-bottom: 32px;
+}
+
+
+
+h1 {
+    font-family: Heebo;
+    color: aliceblue;
+    FONT-SIZE: 45px;
+    padding-top: 185px;
+    TEXT-ALIGN-LAST: CENTER;
+    margin-bottom: 40px;
+}
+
+
+h3
+{
+    font-family: Heebo;
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 163%;
+    font-family: Heebo;
+    color: aliceblue;
+    font-size: 20px;
+    margin-bottom: 11px;
+}
+input {
+    margin-bottom: 20px;
+    font-family: 'Heebo';
+    margin-bottom: 22px;
+    font-family: 'Heebo';
+    width: 212px;
+    direction: rtl;
+}
+
+textarea {
+ 
+    margin-bottom: 12px;
+    font-family: 'Heebo';
+    direction: rtl;
+    width: 391px;
+    height: 200px;
+}
+#male, #female{
+
+font-family:Heebo;
+padding:50px;
+color:aliceblue;
+font-size: 16px;
+
+
+}
+#send{
+width:80px;
+}
+
+main{
+padding-right: 55px;
+}
